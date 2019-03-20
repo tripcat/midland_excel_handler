@@ -24,9 +24,12 @@ with open('EPB_SEARCH_INFO.json','w') as f:
             v_rec = rec[i]
             if v_rec is None:
                 v_rec = ''
-            if chr(13) in v_rec:
-                v_rec = v_rec.replace(chr(13),'')
-                v_rec = v_rec.replace(chr(10),'')
+            if type(v_rec) is not datetime:
+                if chr(13) in v_rec:
+                    v_rec = v_rec.replace(chr(13),'')
+                    v_rec = v_rec.replace(chr(10),'')
+            else:
+                v_rec = v_rec.strftime("%Y-%m-%d %H:%M:%S")
             json_rec = json_rec + ',"' + key_est[i] + '":"' + v_rec + '"'
         json_rec = '{' + json_rec[1:] + '}\n'
 
@@ -45,9 +48,12 @@ with open('EPB_SEARCH_INFO.json','w') as f:
             v_rec = rec[i]
             if v_rec is None:
                 v_rec = ''
-            if chr(13) in v_rec:
-                v_rec = v_rec.replace(chr(13),'')
-                v_rec = v_rec.replace(chr(10),'')
+            if type(v_rec) is not datetime:
+                if chr(13) in v_rec:
+                    v_rec = v_rec.replace(chr(13),'')
+                    v_rec = v_rec.replace(chr(10),'')
+            else:
+                v_rec = v_rec.strftime("%Y-%m-%d %H:%M:%S")
             json_rec = json_rec + ',"' + key_est[i] + '":"' + v_rec + '"'
         json_rec = '{' + json_rec[1:] + '}\n'
 
@@ -69,9 +75,12 @@ with open('EPB_SEARCH_INFO.json','w') as f:
             v_rec = rec[i]
             if v_rec is None:
                 v_rec = ''
-            if chr(13) in v_rec:
-                v_rec = v_rec.replace(chr(13),'')
-                v_rec = v_rec.replace(chr(10),'')
+            if type(v_rec) is not datetime:
+                if chr(13) in v_rec:
+                    v_rec = v_rec.replace(chr(13),'')
+                    v_rec = v_rec.replace(chr(10),'')
+            else:
+                v_rec = v_rec.strftime("%Y-%m-%d %H:%M:%S")
             json_rec = json_rec + ',"' + key_est[i] + '":"' + v_rec + '"'
         json_rec = '{' + json_rec[1:] + '}\n'
 
