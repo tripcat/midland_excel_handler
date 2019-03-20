@@ -15,7 +15,7 @@ with open('EPB_SEARCH_INFO.json','w') as f:
     sql_execute = "select * from V_ESTATE_ELASTICSEARCH"
 
     cur_est = conn.queryAll(sql_execute)
-    key_est = ['TYPE','EST_ID','EST_ENG_NAME','EST_CHI_NAME','REGION_NAME','INET_MAJOR_DIST', 'INET_DIST', 'LOT_ALL', 'ENG_ADDR', 'CHI_ADDR', 'DELETED']
+    key_est = ['TYPE','EST_ID','EST_ENG_NAME','EST_CHI_NAME','REGION_NAME','INET_MAJOR_DIST', 'INET_DIST', 'LOT_ALL', 'ENG_ADDR', 'CHI_ADDR', 'DELETED', 'UPDATE_DATE']
     for rec in cur_est:
         json_rec = ""
         es_prefix_string = '{"index":{"_index":"estate-search"'
@@ -36,7 +36,7 @@ with open('EPB_SEARCH_INFO.json','w') as f:
     sql_execute = "select * from V_PHASE_ELASTICSEARCH"
     cur_est = conn.queryAll(sql_execute)
     key_est = ['TYPE', 'EST_ID', 'EST_ENG_NAME', 'EST_CHI_NAME', 'REGION_NAME', 'INET_MAJOR_DIST', 'INET_DIST',
-               'PHASE_ID', 'PHASE_ENG_NAME', 'PHASE_CHI_NAME', 'LOT_ALL', 'ENG_ADDR', 'CHI_ADDR', 'AD_ENG_NAME_LIST', 'AD_CHI_NAME_LIST', 'DELETED']
+               'PHASE_ID', 'PHASE_ENG_NAME', 'PHASE_CHI_NAME', 'LOT_ALL', 'ENG_ADDR', 'CHI_ADDR', 'AD_ENG_NAME_LIST', 'AD_CHI_NAME_LIST', 'DELETED', 'UPDATE_DATE']
     for rec in cur_est:
         json_rec = ""
         es_prefix_string = '{"index":{"_index":"estate-search"'
@@ -60,7 +60,7 @@ with open('EPB_SEARCH_INFO.json','w') as f:
     sql_execute = "select * from V_BUILDING_ELASTICSEARCH"
     cur_est = conn.queryAll(sql_execute)
     key_est = ['TYPE', 'EST_ID', 'EST_ENG_NAME', 'EST_CHI_NAME', 'REGION_NAME', 'INET_MAJOR_DIST', 'INET_DIST',
-               'PHASE_ID', 'PHASE_ENG_NAME', 'PHASE_CHI_NAME', 'BLDG_ID', 'BLDG_ENG_NAME', 'BLDG_CHI_NAME', 'LOT_LIST', 'ENG_ADDR', 'CHI_ADDR', 'AD_ENG_NAME_LIST', 'AD_CHI_NAME_LIST', 'DELETED']
+               'PHASE_ID', 'PHASE_ENG_NAME', 'PHASE_CHI_NAME', 'BLDG_ID', 'BLDG_ENG_NAME', 'BLDG_CHI_NAME', 'LOT_LIST', 'ENG_ADDR', 'CHI_ADDR', 'AD_ENG_NAME_LIST', 'AD_CHI_NAME_LIST', 'DELETED', 'UPDATE_DATE']
     for rec in cur_est:
         json_rec = ""
         es_prefix_string = '{"index":{"_index":"estate-search"'

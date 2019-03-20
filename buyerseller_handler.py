@@ -76,6 +76,9 @@ def name_analyzer(namestr,bs_type):
                 else:
                     percentage_part = ''
                     name_part = ' '.join(single_parts[0:num_parts])
+            elif last_part == 'OI':
+                percentage_part = ''
+                name_part = ' '.join(single_parts[0:num_parts])
             else:
                 percentage_part = last_part
                 name_part = ' '.join(single_parts[0:(num_parts - 1)])
