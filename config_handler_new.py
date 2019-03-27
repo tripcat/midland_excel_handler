@@ -164,8 +164,8 @@ def excel_process(excel_path, conn):
                          'COMMENTS': comment,
                          'EXCEL_NAME': excel_source_name}
 
-            sql_execute = "insert into APIS.TEMP_UNIT_CONFIG_DTL(TEMP_UNIT_CONFIG_DTL_ID, VERSION_DATE, EST_ID, PHASE_ID, BLDG_ID, FLOOR_FRM, FLOOR_TO, FLOOR_SKIP, FLAT, NUM_ELEVATORS, DIRECTION_CO, COMMENTS, EXCEL_NAME) values " \
-                          "(:TEMP_UNIT_CONFIG_DTL_ID, to_date(:VERSION_DATE, '" + date_type + "'), :EST_ID, :PHASE_ID, :BLDG_ID, :FLOOR_FRM, :FLOOR_TO, :FLOOR_SKIP, :FLAT, :NUM_ELEVATORS, :DIRECTION_CO, :COMMENTS, :EXCEL_NAME)"
+            sql_execute = "insert into APIS.TEMP_UNIT_CONFIG_DTL(TEMP_UNIT_CONFIG_DTL_ID, VERSION_DATE, EST_ID, PHASE_ID, BLDG_ID, FLOOR_FRM, FLOOR_TO, FLOOR_SKIP, FLAT, NUM_ELEVATORS, DIRECTION_CO, COMMENTS, EXCEL_NAME, update_user_id) values " \
+                          "(:TEMP_UNIT_CONFIG_DTL_ID, to_date(:VERSION_DATE, '" + date_type + "'), :EST_ID, :PHASE_ID, :BLDG_ID, :FLOOR_FRM, :FLOOR_TO, :FLOOR_SKIP, :FLAT, :NUM_ELEVATORS, :DIRECTION_CO, :COMMENTS, :EXCEL_NAME, 'EXCEL')"
 
             conn.insertSingle(sql_execute, sql_param)
             #param_list_dtl.append(sql_param)
@@ -200,16 +200,16 @@ def excel_process(excel_path, conn):
             if config_value not in (0,'',' ') and main_id != '':
                 config_value = int(config_value)
                 sql_string = "insert into APIS.TEMP_UNIT_CONFIG_DTL_ITEMS(TEMP_UNIT_CONFIG_DTL_ID, UNIT_CONFIG_MAIN_ID, UNIT_CONFIG_SUB_ID, VALUE) " \
-                             "values ('{0}', '{1}', '{2}', {3});".format(uid, main_id, sub_id, config_value)
+                             "values ('{0}', '{1}', '{2}', {3} );".format(uid, main_id, sub_id, config_value )
                 # print(sql_string)
                 sql_param = {'TEMP_UNIT_CONFIG_DTL_ID': uid,
                              'UNIT_CONFIG_MAIN_ID': main_id,
                              'UNIT_CONFIG_SUB_ID': sub_id,
-                             'VALUE': config_value}
+                             'VALUE': config_value }
 
                 param_list_item.append(sql_param)
 
-    sql_execute = "insert into APIS.TEMP_UNIT_CONFIG_DTL_ITEMS(TEMP_UNIT_CONFIG_DTL_ID, UNIT_CONFIG_MAIN_ID, UNIT_CONFIG_SUB_ID, VALUE) values (:TEMP_UNIT_CONFIG_DTL_ID, :UNIT_CONFIG_MAIN_ID, :UNIT_CONFIG_SUB_ID, :VALUE)"
+    sql_execute = "insert into APIS.TEMP_UNIT_CONFIG_DTL_ITEMS(TEMP_UNIT_CONFIG_DTL_ID, UNIT_CONFIG_DTL_ID, UNIT_CONFIG_MAIN_ID, UNIT_CONFIG_SUB_ID, VALUE, update_user_id) values (:TEMP_UNIT_CONFIG_DTL_ID, 0, :UNIT_CONFIG_MAIN_ID, :UNIT_CONFIG_SUB_ID, :VALUE, 'EXCEL')"
     conn.insertBatch(sql_execute, param_list_item)
 
     end_time = time.time()

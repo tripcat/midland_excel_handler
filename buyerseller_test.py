@@ -117,6 +117,25 @@ def name_analyzer(namestr,bs_type):
 
     return name_part, percentage_part, flag_abnormal_char, name_space_num
 
-n1 = "CHAN SUI OI"
-bs_type = 's'
-name_part, percentage_part, flag_abnormal_char, name_space_num = name_analyzer(n1,bs_type)
+
+def namestring_analyzer(full_bs_info, bs_type):
+    bs_list = full_bs_info.split(',')
+    param_list_single = []
+    for namestr in bs_list:
+        sql_single_param = {}
+        name, percentage, if_abnormal_char, space_divided_num = name_analyzer(namestr, bs_type)
+        sql_single_param['BS_TYPE'] = bs_type
+        sql_single_param['NAME'] = name
+        sql_single_param['PERCENTAGE'] = percentage
+        sql_single_param['IF_ABNORMAL_CHAR'] = if_abnormal_char
+        sql_single_param['SPACE_DIVIDED_NUM'] = space_divided_num + 1
+        param_list_single.append(sql_single_param)
+
+    return param_list_single
+
+
+if __name__ == '__main__':
+    bs_type = 's'
+    full_bs_info = "HO YING HO 66 /100, HO KING CHEUNG 34 7100"
+    list_name = namestring_analyzer(full_bs_info, bs_type)
+    print(list_name)

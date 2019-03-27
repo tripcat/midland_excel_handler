@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa735188-56e0-4894-ae29-6ada6dea197d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/buyerseller_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr_address_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES_INC_SYNC_ORACLE_EPB.py" beforeDir="false" afterPath="$PROJECT_DIR$/ES_INC_SYNC_ORACLE_EPB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buyerseller_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/buyerseller_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsed_addr_48K.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EPB_INC_TEST.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EPB_SEARCH_INFO.json" beforeDir="false" afterPath="$PROJECT_DIR$/EPB_SEARCH_INFO.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buyerseller_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/buyerseller_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_handler_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/config_handler_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kettle_connection_update.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +23,8 @@
       <file leaf-file-name="config_handler_new.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_handler_new.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3808">
-              <caret line="230" column="16" selection-start-line="224" selection-start-column="8" selection-end-line="230" selection-end-column="16" />
+            <state relative-caret-position="17">
+              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -29,11 +32,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="address_mapping_190102.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/address_mapping_190102.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="buyerseller_handler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buyerseller_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="117" selection-end-column="73" />
+            <state relative-caret-position="7650">
+              <caret line="455" column="72" selection-start-line="455" selection-start-column="72" selection-end-line="455" selection-end-column="72" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -44,20 +52,20 @@
       <file leaf-file-name="buyerseller_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buyerseller_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="221">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#13#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address_analyzer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/address_analyzer.py">
+      <file leaf-file-name="t1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/t1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
-              <folding>
-                <element signature="e#1#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -65,17 +73,32 @@
       <file leaf-file-name="address_mapping.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/address_mapping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18547">
-              <caret line="1094" column="8" selection-start-line="1094" selection-start-column="8" selection-end-line="1094" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="730" lean-forward="true" selection-start-line="725" selection-end-line="730" />
+              <folding>
+                <element signature="e#623#642#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ES_INC_SYNC_ORACLE_EPB.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lr_address_parser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lr_address_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="685" lean-forward="true" selection-start-line="685" selection-end-line="685" />
+              <folding>
+                <element signature="e#1#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ES_INC_SYNC_ORACLE_EPB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ES_INC_SYNC_ORACLE_EPB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="459">
+              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
               <folding>
                 <element signature="e#1#30#0" expanded="true" />
               </folding>
@@ -86,28 +109,10 @@
       <file leaf-file-name="spre_carpark_handler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spre_carpark_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kettle_connection_update.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kettle_connection_update.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spre_handler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spre_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="50" />
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +121,8 @@
       <file leaf-file-name="Oracle_Process.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Oracle_Process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="17">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -145,23 +150,25 @@
         <option value="$PROJECT_DIR$/Oracle_Process.py" />
         <option value="$PROJECT_DIR$/config_handler.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/config_handler_new.py" />
         <option value="$PROJECT_DIR$/spre_handler.py" />
         <option value="$PROJECT_DIR$/buyerseller_handler.py" />
         <option value="$PROJECT_DIR$/spre_carpark_handler.py" />
         <option value="$PROJECT_DIR$/address_analyzer.py" />
         <option value="$PROJECT_DIR$/address_mapping.py" />
         <option value="$PROJECT_DIR$/kettle_connection_update.py" />
-        <option value="$PROJECT_DIR$/buyerseller_test.py" />
         <option value="$PROJECT_DIR$/ES_INC_SYNC_ORACLE_EPB.py" />
+        <option value="$PROJECT_DIR$/buyerseller_test.py" />
+        <option value="$PROJECT_DIR$/t1.py" />
+        <option value="$PROJECT_DIR$/config_handler_new.py" />
+        <option value="$PROJECT_DIR$/lr_address_parser.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="434" />
-    <option name="y" value="9" />
-    <option name="width" value="1458" />
-    <option name="height" value="888" />
+    <option name="x" value="399" />
+    <option name="y" value="45" />
+    <option name="width" value="1444" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.buyerseller_test">
+  <component name="RunManager" selected="Python.lr_address_parser">
     <configuration name="ES_INC_SYNC_ORACLE_EPB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="config_excel_handler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,24 +220,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ES_INC_SYNC_ORACLE_EPB.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="address_mapping" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="config_excel_handler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/address_mapping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +243,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="kettle_connection_update" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="config_handler_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="config_excel_handler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,13 +255,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kettle_connection_update.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config_handler_new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="spre_carpark_handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lr_address_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="config_excel_handler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,26 +273,44 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spre_carpark_handler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lr_address_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="config_excel_handler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.spre_carpark_handler" />
       <item itemvalue="Python.ES_INC_SYNC_ORACLE_EPB" />
-      <item itemvalue="Python.address_mapping" />
-      <item itemvalue="Python.kettle_connection_update" />
       <item itemvalue="Python.buyerseller_test" />
+      <item itemvalue="Python.t1" />
+      <item itemvalue="Python.config_handler_new" />
+      <item itemvalue="Python.lr_address_parser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lr_address_parser" />
+        <item itemvalue="Python.config_handler_new" />
+        <item itemvalue="Python.t1" />
         <item itemvalue="Python.buyerseller_test" />
         <item itemvalue="Python.ES_INC_SYNC_ORACLE_EPB" />
-        <item itemvalue="Python.kettle_connection_update" />
-        <item itemvalue="Python.address_mapping" />
-        <item itemvalue="Python.spre_carpark_handler" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550225124920</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="midland init">
+      <created>1553050026225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553050026225</updated>
+    </task>
+    <task id="LOCAL-00003" summary="midland init">
+      <created>1553050542926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553050542926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -338,19 +359,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="434" y="9" width="1458" height="888" extended-state="0" />
+    <frame x="399" y="45" width="1444" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19295774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19487908" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292011" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32822478" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19862069" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6113033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32700422" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39833334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39724138" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,6 +380,32 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -385,27 +432,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Oracle_Process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buyerseller_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="47" column="63" lean-forward="true" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config_handler_new.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
@@ -621,20 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Oracle_Process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spre_carpark_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spre_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -645,26 +657,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ES_INC_SYNC_ORACLE_EPB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kettle_connection_update.py" />
+    <entry file="file://$PROJECT_DIR$/spre_carpark_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyerseller_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7650">
+          <caret line="455" column="72" selection-start-line="455" selection-start-column="72" selection-end-line="455" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle_Process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyerseller_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#13#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config_handler_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3808">
-          <caret line="230" column="16" selection-start-line="224" selection-start-column="8" selection-end-line="230" selection-end-column="16" />
+        <state relative-caret-position="17">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kettle_connection_update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/address_analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
+        <state relative-caret-position="799">
           <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
@@ -672,36 +732,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/address_mapping_190102.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/address_mapping.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18547">
-          <caret line="1094" column="8" selection-start-line="1094" selection-start-column="8" selection-end-line="1094" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buyerseller_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="117" selection-end-column="73" />
+        <state relative-caret-position="272">
+          <caret line="730" lean-forward="true" selection-start-line="725" selection-end-line="730" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#623#642#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buyerseller_test.py">
+    <entry file="file://$PROJECT_DIR$/lr_address_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES_INC_SYNC_ORACLE_EPB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="137">
+          <caret line="685" lean-forward="true" selection-start-line="685" selection-end-line="685" />
           <folding>
-            <element signature="e#1#30#0" expanded="true" />
+            <element signature="e#1#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
